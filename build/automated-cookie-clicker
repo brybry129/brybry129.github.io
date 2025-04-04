@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bryanna Donovan Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><span class="icon solid fa-cookie-bite"></span> Automated Cookie Clicker <span class="icon solid fa-cookie-bite"></span></h1>
+						<h2>Made with Python using Selenium Web Driver</h2>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<header class="major">
+									<h2><b>About the Project</b></h2>
+									<p>Using the selenium web driver module this project takes the addictive idle game Cookie Clicker to a whole new level of idle. Using the experimental cookie clicker website, <a href="https://orteil.dashnet.org/experiments/cookie/">https://orteil.dashnet.org/experiments/cookie/,</a> I automated the process to click the cookies and purchase upgrades.</p>
+									<p>The program runs for 5 minutes and can be modified to run as long as wanted. The upgrades are set up to be purchased every 5 seconds for the first 3 minutes. It will purchase the most expensive upgrade available first and then any others available afterwards. After 3 minutes the time in between upgrade purchases is increased slightly to allow the higher value upgrades to be purchased. These times can also be modified to purchase at any time wanted.</p>
+								</header>
+								<video class="" controls autoplay muted>
+									<source src="static/videos/cookieclicker.mp4" type="video/mp4">
+								</video>
+								<p>*Video is 5x speed*</p>
+								<a href="https://github.com/brybry129/Automated-Cookie-Clicker" class="button primary">Check out on GitHub here <span class="icon brands fa-github"></span></a>
+							</section>
+
+					</div>
+				<!-- Footer -->
+<footer id="footer">
+    <section>
+        <h2>Contact Me</h2>
+        <dl class="alt">
+            <dt>Phone</dt>
+            <dd>480-334-8320</dd>
+            <dt>Email</dt>
+            <dd>brynanna1@gmail.com</dd>
+        </dl>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/bryanna-donovan-96730b138/" class="icon brands fa-linkedin alt"><span class="label">Twitter</span></a></li>
+            <li><a href="https://github.com/brybry129" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+        </ul>
+    </section>
+    <p class="copyright">&copy; Bryanna Donovan. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>

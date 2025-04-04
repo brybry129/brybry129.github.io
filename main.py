@@ -1,9 +1,11 @@
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap5
+from flask_frozen import Freezer
 
 
 app = Flask(__name__)
 Bootstrap5(app)
+freezer = Freezer(app)
 
 
 @app.route("/")
@@ -53,3 +55,4 @@ def topmovies():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    freezer.freeze()
