@@ -26,5 +26,30 @@ def ricksavior():
     return render_template("ricksavior.html")
 
 
+@app.route("/automated-cookie-clicker")
+def cookieclicker():
+    return render_template("cookieclicker.html")
+
+
+@app.route("/entertainment-tracker")
+def entertainmenttracker():
+    return render_template("entertainmenttracker.html")
+
+
+@app.route("/space-evaders")
+def spaceevaders():
+    return render_template("spaceevaders.html")
+
+
+@app.route("/snake")
+def snake():
+    return render_template("snake.html")
+
+
+@app.route("/list-of-top-movies")
+def topmovies():
+    return render_template("topmovies.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,0 +1,54 @@
+{% include 'header.html' %}
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><span class="icon solid fa-film"></span> List of Top Movies <span class="icon solid fa-film"></span></h1>
+						<p>Made with Python, Flask, FlaskForm and SQL</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<header class="major">
+									<h2><b>About the Project</b></h2>
+									<p>This project is a website built with Flask and SQL to keep a list of my top favorite movies and my review/rating.</p>
+									<video class="" controls autoplay muted>
+										<source src="static/videos/topmovies.mp4" type="video/mp4">
+									</video>
+									<p>Add new movies by searching for the name and selecting from a list. The list of potential movies is retrieved using The Movie Database (TMDB) API. The description and image for each movie entry is also retrieved using the API.</p>
+									<video class="" controls muted>
+										<source src="static/videos/addmovie.mp4" type="video/mp4">
+									</video>
+									<p>Update a movie's rating and review.</p>
+									<video class="" controls muted>
+										<source src="static/videos/editmovie.mp4" type="video/mp4">
+									</video>
+									<p>Delete a movie from the list</p>
+									<video class="" controls muted>
+										<source src="static/videos/deletemovie.mp4" type="video/mp4">
+									</video>
+								</header>
+							</section>
+
+					</div>
+				{% include 'footer.html' %}
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
