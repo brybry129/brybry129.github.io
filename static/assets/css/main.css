@@ -2290,30 +2290,37 @@ input, select, textarea {
 				line-height: 2em;
 			}
 
+        /* Dark Violet */
 		.icon.style1 {
 			color: #a89cc8;
 		}
 
+        /* Light Violet */
 		.icon.style2 {
 			color: #c79cc8;
 		}
 
+        /* Pink */
 		.icon.style3 {
 			color: #efa8b0;
 		}
 
+        /* Dark Blue */
 		.icon.style4 {
 			color: #9bb2e1;
 		}
 
+        /* Light Blue */
 		.icon.style5 {
 			color: #8cc9f0;
 		}
 
+        /* Light Gray */
 		.icon.style6 {
 		    color: #bdbdbd;
 		}
 
+        /* Maroon */
 		.icon.style7 {
 		    color: #8C1D40;
 		    font-size: 200%;
